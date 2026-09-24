@@ -1,5 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card"
 import { ExternalLink, Github, Linkedin, Mail } from "lucide-react"
+import developerImage from "../assets/developer.png"
 
 export function Developer() {
   return (
@@ -23,7 +24,7 @@ export function Developer() {
               {/* Image Container */}
               <div className="relative w-full h-full rounded-full overflow-hidden border-[4px] border-background shadow-sm bg-white dark:bg-white/90 flex items-center justify-center z-10">
                 <img 
-                  src={`${import.meta.env.BASE_URL}developer.png`}
+                  src={developerImage}
                   alt="Shivang Nandani" 
                   className="w-full h-full object-cover scale-[1.15] translate-y-3"
                 />
