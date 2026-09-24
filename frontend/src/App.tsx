@@ -171,7 +171,7 @@ function App() {
               <div className="flex-1 min-w-0">
                 {predictionData ? (
                   <section className="space-y-8 animate-in slide-in-from-right-8 duration-500">
-                    <h2 className="text-2xl font-bold tracking-tight">{predictionData.stock_name} Analysis (1m)</h2>
+                    <h2 className="text-2xl font-bold tracking-tight">{predictionData.stockName} Analysis (1m)</h2>
                     <StockInfo data={predictionData} />
                     <div className="bg-white/60 dark:bg-black/20 backdrop-blur-xl border border-black/5 dark:border-white/10 rounded-2xl p-2 lg:p-6 shadow-sm">
                       <PredictionChart data={predictionData} />
