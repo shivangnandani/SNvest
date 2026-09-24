@@ -23,6 +23,14 @@ class PredictionRequest(BaseModel):
     ticker: str
     start_date: str # Ignored in backend_v2
 
+@app.get("/")
+def read_root():
+    return {
+        "status": "online",
+        "message": "SNvest AI Prediction Engine is running securely on Render!",
+        "endpoints": ["/predict", "/predict-daily", "/search", "/market-indices"]
+    }
+
 _search_cache = {}
 CACHE_TTL = 90
 
