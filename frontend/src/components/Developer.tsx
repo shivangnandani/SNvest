@@ -23,7 +23,7 @@ export function Developer() {
               {/* Image Container */}
               <div className="relative w-full h-full rounded-full overflow-hidden border-[4px] border-background shadow-sm bg-white dark:bg-white/90 flex items-center justify-center z-10">
                 <img 
-                  src="/developer.png" 
+                  src={`${import.meta.env.BASE_URL}developer.png`}
                   alt="Shivang Nandani" 
                   className="w-full h-full object-cover scale-[1.15] translate-y-3"
                 />
