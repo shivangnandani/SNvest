@@ -42,8 +42,8 @@ To run SNvest on your local machine:
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/shivangnandani/StockPrice-Forecast.git
-cd StockPrice-Forecast
+git clone https://github.com/shivangnandani/SVnest.git
+cd SVnest
 ```
 
 ### 2. Start the Backend ML Engine
